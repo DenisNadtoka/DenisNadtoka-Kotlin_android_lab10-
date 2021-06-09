@@ -37,6 +37,14 @@ class SecondFragment : Fragment() {
         view.findViewById<TextView>(R.id.textview_random).text = randomNumber.toString()
     }
 
+    private fun sqr(view: View){
+        val showCountTextView = view.findViewById<TextView>(R.id.textview_random)
+        val countString = showCountTextView.text.toString()
+        var count = countString.toInt()
+        count = count * count
+        showCountTextView.text = count.toString()
+    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -63,6 +71,10 @@ class SecondFragment : Fragment() {
 
         view.findViewById<Button>(R.id.button_random).setOnClickListener {
             random(view)
+        }
+
+        view.findViewById<Button>(R.id.button_square).setOnClickListener {
+            sqr(view)
         }
     }
 
