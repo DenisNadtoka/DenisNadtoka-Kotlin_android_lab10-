@@ -11,5 +11,6 @@
     <string name="random_heading">Here is a random number between 0 and %d.</string>
     <string name="toast_button_text">Toast</string>
     <string name="random_again">Random again</string>
+    <string name="button_square">x^2</string>
     <string name="count">Count</string>
 </resources>

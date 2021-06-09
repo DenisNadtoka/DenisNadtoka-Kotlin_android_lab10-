@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textview_random"
-        android:layout_width="146dp"
-        android:layout_height="89dp"
+        android:layout_width="373dp"
+        android:layout_height="97dp"
         android:background="#F4CE0B"
         android:fontFamily="cursive"
         android:gravity="center_horizontal"
@@ -69,8 +69,24 @@
         app:iconTint="#F30000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.853" />
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/button_square"
+        android:layout_width="79dp"
+        android:layout_height="51dp"
+        android:text="@string/button_square"
+        android:textColor="#E10404"
+        android:textStyle="italic"
+        app:backgroundTint="@color/black"
+        app:iconTint="#F30000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
 </androidx.constraintlayout.widget.ConstraintLayout>
